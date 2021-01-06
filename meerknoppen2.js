@@ -1,18 +1,21 @@
-
-
 var container = document.getElementById('container');
 
+var buttons = document.getElementsByClassName("buttons");
 
-createbutton()
-var d = prompt("hoeveel knoppen?");
-function createbutton(){
+var aantalbuttons = prompt("hoeveel buttons");
 
-for (var i = d;  i <= 0; i++ ) {
-container.style.backgroundColor = "lightblue";	
-var button = document.createElement("BUTTON");
-button.innerHTML = "knop";
-button.id = "button";
-document.body.appendChild(button);
-button.style.backgroundColor = "green";
-}
+var kleuren = ["green","red","purple","blue","black"];
+
+for (p =1; p<=aantalbuttons; p++){
+	var maakButton = document.createElement("button");
+	var Buttonnaam = document.createTextNode(p);
+	maakButton.appendChild(Buttonnaam);
+	maakButton.classList = "buttons";
+	maakButton.id = "button" + p;
+	maakButton.style.backgroundColor = kleuren[0];
+	container.appendChild(maakButton);
+};
+
+maakbutton.onclick = function(kleuren){
+document.button.style.backgroundColor = kleuren[i];
 };

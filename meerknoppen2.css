@@ -1,10 +1,11 @@
 #container {
 	width:750px;
 	height:1000px;
-	background-color:red;
+	background-color:lightblue;
 }
-button{
+.buttons{
 	width:150px;
 	height:150px;
-	background-color:green;
+	background-color:white;
+
 }
