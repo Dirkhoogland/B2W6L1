@@ -14,8 +14,11 @@ for (p =1; p<=aantalbuttons; p++){
 	maakButton.id = "button" + p;
 	maakButton.style.backgroundColor = kleuren[0];
 	container.appendChild(maakButton);
+
+
+
 };
 
-maakbutton.onclick = function(kleuren){
-document.button.style.backgroundColor = kleuren[i];
+maakButton.onclick = function(kleuren){
+maakButton.style.backgroundColor = kleuren[1];
 };
