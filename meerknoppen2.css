@@ -3,10 +3,10 @@
 	height:1000px;
 	background-color:lightblue;
 }
-.buttons{
+button{
 	width:50px;
 	height:50px;
 	margin:20px;
-	background-color:white;
+	background-color:green;
 
 }
