@@ -22,7 +22,7 @@
 body{
 	background-color:gray;
 }
-#letter{
+#letter1{
 	display:inline-block;
 	width:50px;
 	height:50px;
@@ -34,4 +34,24 @@ body{
 	bottom:0px;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+#woord{
+	width:50px;
+	height:20px;
+}
+
+#letter{
+	width:50px;
+	height:20px;
+}
+
+#input1{
+	width:100px;
+	height:20px;
+}
+
+#input2{
+	width:100px;
+	height:20px;
 }
